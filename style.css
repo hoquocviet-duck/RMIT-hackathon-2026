@@ -1,0 +1,35 @@
+/* style.css - MedTide Vault Custom Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+code, pre {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar cho phần Audit Log và danh sách */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617; /* slate-950 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b; /* slate-800 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #334155; /* slate-700 */
+}
+
+/* Hiệu ứng chuyển cảnh nhẹ cho các nút và thẻ */
+button, input, .transition {
+    transition: all 0.2s ease-in-out;
+}
